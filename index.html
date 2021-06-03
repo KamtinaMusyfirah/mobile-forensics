@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Android Forensics - Mobile Forensics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+		<!-- Bootstrap CSS File -->
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  
+		<!-- Libraries CSS Files -->
+		<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="lib/animate/animate.min.css" rel="stylesheet">
+		<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+		<!-- Favicons -->
+		<link href="images/favicon.png" rel="icon">
+		<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>MOBILE<br />
+						FORENSICS</h1>
+						<p>Seiring dengan smartphone yang menjadi lebih umum di lingkungan masyarakat, bukti yang berkaitan dengan kejahatan pun 
+							akan lebih sering ditemukan. Semua aplikasi yang diunduh, berpotensi menyimpan informasi pada penyimpanan internal smartphone tersebut.
+						</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Forensik Digital</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Android Forensics</a></li>
+							<li><a href="generic.html">GPS Forensics</a></li>
+							<li><a href="elements.html">SIM Card Forensics</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Juni 02, 2021</span>
+									<h2>Android Forensics</h2>
+									<p>Saat ini, sangat banyak informasi yang dapat kita temui pada smartphone, misalnya riwayat panggilan, kontak, kalender, SMS, MMS, aktivitas internet, 
+									foto, video, GPS location, data yang disimpan di kartu SD, dan masih banyak yang lainnya.</p>
+									<div class="about-content">
+										<h3>Gambar berikut merupakan struktur dari smartphone yang kita gunakan :</h3>
+									</div>
+									
+								</header>
+								<a href="#" class="image main"><img src="images/pic01.PNG" alt="" /></a>
+								
+								<div class="col-lg-10 col-md-7">
+									<div class="about-content">
+									  <ul>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Processor</b>, ini dianggap sebagai otak dari smartphone.</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Storage Memory</b>, smartphone modern saat ini menyediakan berbagai penyimpanan memory pilihan,
+										yaitu memory internal dan memory eksternal. Dan memory internal biasanya dipartisi menjadi dua bagian, yaitu 
+										: penyimpanan sistem dan penyimpanan telepon.</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Sensors</b>, saat ini smartphone telah dilengkapi dengan berbagai sensor seperti 
+										accelerometer, kompas digital, gravitasi, giroskop, sensor sidik jari, dan termometer.</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>SIM Cards</b>, Sebagian besar ponsel khususnya ponsel GSM memerlukan SIM untuk mengidentifikasi dan mengautentikasi
+										pelanggan ke penyedia layanan seluler atau operator.</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Network Connectivity</b>, karena Wi-Fi yang tersedia secara meluas ditambah lagi dengan adanya
+										cloud computing di smartphone menyebabkan aplikasi dan penyimpanan data disedikan sebagai layanan bagi pengguna seluler melalui internet.</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Cameras and Speakers</b>, smartphone masa kini dilengkapi dengan kamera dan speaker.</li>
+									  </ul>
+									</div>
+								  </div> 
+
+								  <div class="about-content">
+									  <h3>Investigasi Forensik Perangkat Seluler</h3>
+									  <p>Ponsel dilengkapi dengan banyak teknologi nirkabel, termasuk Wi-Fi, bluetooth dan data seluler.
+										Jika ponsel masih hidup dan terhubung dengan jaringan nirkabel, maka sangat penting untuk mengisolasi 
+										ponsel dari jaringan disekitarnya untuk menjaga integritas data yang disimpan di ponsel. Dan juga, ponsel yang
+										terhubung ke komputer, misalnya melalui kabel USB harus segera diputuskan.
+									  </p>
+									  <p>Ada tiga aspek untuk investigasi yaitu <b>lokasi penyimpanan data</b>, <b>ekstraksi data</b>, dan <b>analisis data</b>.
+										Ada beberapa metode yang dapat digunakan untuk ekstraksi data, diantaranya yaitu <b>metode akuisisi data</b> dan <b>metode analisis data</b>.
+									  </p>
+								  </div>
+							</article>
+
+						
+							<section id="testimonials">
+								<div class="container">
+						
+								<header class="section-header" style="text-align: center;">
+									<h3><b>Aspek Untuk Investigasi</b></h3>
+								</header>
+						
+								<div class="col-lg-10 col-md-7">
+									<div class="about-content">
+									  <ul>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Lokasi Penyimpanan</b>
+											<p>Untuk mengekstrak dan menganalisis data yang tersimpan di smartphone, seseorang harus mengetahui
+												dimana data tersebut tersimpan. Gambar dibawah merupakan standar lokasi penyimpanan pada Android.
+											</p>
+											<img src="images/pic02.PNG" alt="" width="800">
+											<p>Tingkat atas (merah) mewakili partisi (bagian dari semua partisi); yang kedua dan
+												tingkat ketiga (biru dan hijau masing-masing) mewakili konten yang ditemukan di partisi ini.
+												Partisi "userdata", dipasang di "/ data", berisi semua penyimpanan aplikasi pribadi.
+												Ini adalah konten yang dilindungi, hanya dapat diakses oleh setiap aplikasi. </p>
+											<p>Partisi sdcard dapat berisi
+												informasi. Misalnya, gambar/video yang diambil oleh
+												aplikasi kamera smartphone, file yang diunduh, dan yang lainnya. Lokasi ini tidak terlindungi, artinya siapa pun memiliki akses ke konten
+												yang disimpan di sdcard. Ini adalah lokasi lain untuk mencari konten yang relevan secara forensik. </p>
+										</li>
+										<li><i class="ion-android-checkmark-circle"></i> <b>Metode Akuisis</b>
+										<p>Berikut adalah beberapa metode akuisisi data yang berbeda, termasuk kombinasi metode perangkat keras dan perangkat lunak.
+											<ol type="1">
+												<li><b>Chip Off</b>
+												<p>Metode ekstraksi data ini rumit dan membutuhkan banyak teknis pengetahuan, ketangkasan dan kepercayaan diri
+													untuk benar-benar membongkar perangkat seluler. <b>Kelemahan</b> dari metode ini adalah membongkar smartphone
+													dengan hati-hati menjadi tugas yang memakan waktu. Jika ada batas waktu yang ketat dalam penyelidikan, maka metode
+													ini mungkin tidak cocok. <b>Kelebihanya</b> adalah meskipun smartphone dalam keadaan rusak, dimungkinkan untuk mengambil data dari 
+													smartphone tersebut selama flash chip nya tidak rusak.
+												</p>
+												</li>
+												<li><b>JTAG (Joint Test Action Group)</b>
+												<p>JTAG adalah protokol komunikasi yang sering didukung oleh processor untuk menyediakan akses ke fungsi debug / emulasi. 
+													<b>Kelebihan</b> dari metode ini adalah lebih sedikit modifikasi fisik perangkat yang diperlukan, namun CPU tidak boleh rusak agar
+													metode ini dapat dilakukan. <b>Kelemahannya</b> yaitu tidak semua perangkat mendukung JTAG, Koneksi test action port sulit ditemukan,
+													ekstraksinya relatif lebih lambat, terutama ketika mempertimbangkan ukuran penyimpanan internal smartphone modern.
+
+												</p>
+												</li>
+												<li><b>Forensic Software Suites</b>
+												<p> Ada banyak forensic Software suites yang dirancang untuk perangkat smartphone. <b>Kelebihan</b> dari metode ini yaitu, tidak hanya menyediakan metode untuk mengekstrak data,
+													tetapi juga menampilkan dan menyimpannya dengan cara yang nyaman. <b>Kelemahannya</b> yaitu software nya sangat mahal, dukungan untuk perangkat baru
+													mungkin agak lambat, karena kebutuhan untuk memperbarui perangkat lunak sesuai. 
+												</p>
+												</li>
+												<li><b>ADB (Android Debug Bridge)</b>
+												<p>Ini adalah alat baris perintah yang memungkinkan komunikasi antara komputer dan
+													perangkat seluler Android (atau emulator). Program client server mencakup: 
+													<b>client, daemon, server</b>. <b>Kelebihan</b> dari metode ini adalah mencakup banyak perintah,
+													diantaranya yaitu pull, push, shell dan lain lain. <b>Kelemahannya</b> yaitu untuk berinterkasi dengan perangkat
+													menggunakan metode ini, USB debugging harus diaktifkan dan layar harus dibuka.
+												</p>
+												</li>
+												<li><b>Backup Applications</b>
+												<p>Mekanisme ini tidak akan menyalin
+													semua data aplikasi, karena hanya memiliki akses ke aplikasi data yang
+													diprogram untuk dibagikan. <b>Keuntungan</b> dari metode ini adalah mudah. Seseorang hanya perlu menginstal
+													aplikasi (dan mungkin kartu microSD), dan biarkan aplikasi melakukan tugasnya. Ada juga <b>kelemahan</b> dari metode ini, yaitu
+													harus memiliki akses ke perangkat (mis
+													. Ini berarti bahwa metode ini tidak akan layak jika Anda tidak
+													memiliki akses melewati layar kunci.
+												</p>
+												</li>
+												<li><b> Firmware Update Protocols</b>
+												<p> Perangkat dapat di-boot ke pembaruan firmware atau mode unduh, dan
+													ketika dalam mode ini, proses update firmware dapat berjalan, yang digunakan untuk flash baru pada
+													firmware sistem. Ada banyak <b>Kelebihan</b> dari metode ini, yaitu menyediakan cara yang canggih untuk memulihkan
+													informasi dari banyak smartphone, tanpa mempengaruhi integritas data perangkat.
+													gambar fisik dipulihkan, yang menyediakan lebih banyak data daripada gambar logis.
+													<b>Kelemahan</b> dari metode ini, yaitu membutuhkan waktu dan usaha untuk
+													bootloader reverse engineer dan perangkat lunak pembaruan firmware untuk perangkat yang berbeda.
+
+												</p></li>
+											</ol>
+
+										</p>
+										</li>
+
+										<li><i class="ion-android-checkmark-circle"></i> <b>Analisis Data</b>
+										<p>Setelah mengekstrak data dari telepon, sampailah pada langkah analisis data. Pendekatan analisis data bervariasi dengan aplikasi Android sepert
+											pesan, panggilan telepon, browser web, dan sebagainya. Dengan kata lain, setiap aplikasi
+											membutuhkan metode analisis forensik yang unik. Data dianalisis dan aktivitas atau kebiasaan pengguna diselidiki dari
+											aspek berikut: </p>
+											<ol type="1">
+												<li> <b>Analysis of contact information</b>: Informasi kontak memungkinkan penyelidik
+													untuk menentukan dengan siapa pengguna melakukan kontak.</li>
+												<li> <b>Analysis of exchanged messages</b>: Kronologi pesan yang dipertukarkan dapat
+													direkonstruksi dengan menentukan stempel waktu dari pesan yang dipertukarkan, data yang
+													dibawa, pengguna yang terlibat dalam percakapan, serta kapan percakapan itu
+													benar-benar telah diterima oleh penerimanya. </li>
+												<li> <b> Analysis of deletions</b>: penghapusan ini memberikan beberapa panduan untuk penyelidikan.
+												</li>
+											</ol>
+										</li>
+									  </ul>
+									</div>
+								  </div> 
+								</div>
+							</section><!-- #testimonials -->
+
+							<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Kamtina Musyfirah</li><li>Teknik Informatika</li></ul>
+					</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
